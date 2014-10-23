@@ -10,7 +10,7 @@ app.use(logger());
 app.use(parser());
 
 app.use(function* (next){
-    this.body = "hello world!";
+    this.body = "koa works!";
     yield next;
 });
 
