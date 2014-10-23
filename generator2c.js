@@ -36,3 +36,10 @@ co(function* () {
     test = yield func2Thunk("calling function 02");
     console.log(test);
 })();
+
+module.exports = {
+    thunk1: func1Thunk,
+    thunk2: func2Thunk
+};
+
+
