@@ -1,6 +1,8 @@
 var co = require("co");
 var thunkify = require("thunkify");
 
+// function(param, callback) { callback(error, result);}
+
 function func1(param, callback) {
     console.log(param);
     setTimeout(function() {
