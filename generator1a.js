@@ -7,3 +7,4 @@ var func = test();
 console.log(func.next());
 console.log(func.next());
 console.log(func.next());
+
